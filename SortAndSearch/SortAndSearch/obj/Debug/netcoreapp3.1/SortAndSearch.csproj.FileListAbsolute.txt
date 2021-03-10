@@ -1,0 +1,11 @@
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\bin\Debug\netcoreapp3.1\SortAndSearch.exe
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\bin\Debug\netcoreapp3.1\SortAndSearch.deps.json
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\bin\Debug\netcoreapp3.1\SortAndSearch.runtimeconfig.json
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\bin\Debug\netcoreapp3.1\SortAndSearch.runtimeconfig.dev.json
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\bin\Debug\netcoreapp3.1\SortAndSearch.dll
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\bin\Debug\netcoreapp3.1\SortAndSearch.pdb
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\obj\Debug\netcoreapp3.1\SortAndSearch.csprojAssemblyReference.cache
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\obj\Debug\netcoreapp3.1\SortAndSearch.AssemblyInfoInputs.cache
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\obj\Debug\netcoreapp3.1\SortAndSearch.AssemblyInfo.cs
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\obj\Debug\netcoreapp3.1\SortAndSearch.dll
+C:\Users\Kabrina\Documents\GitHub Repos\Sorting-and-Searching-Timing-Experiment\SortAndSearch\SortAndSearch\obj\Debug\netcoreapp3.1\SortAndSearch.pdb
