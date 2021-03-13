@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Numerics;
 
 namespace SortAndSearch
 {
@@ -33,6 +35,21 @@ namespace SortAndSearch
             file.WriteLine("End sorted array");
             Console.WriteLine("Array took " + difference + " to sort.");
             Console.WriteLine("Arrays created. Check the bin/Debug/netcoreapp3.1 folder for the created text file.");
+
+            //BigInteger[] c = new BigInteger[999999999999];
+            List<BigInteger> c = new List<BigInteger>();
+
+            for (int i = 0; i < 99999999; i++)
+            {
+                c.Add(i);
+            }
+
+            DateTime start2 = DateTime.Now;
+            c.Sort();
+            DateTime end2 = DateTime.Now;
+            TimeSpan difference2 = end2 - start2;
+
+            Console.WriteLine("Array #2 took " + difference2 + " to sort.");
 
             //LINEAR SEARCH
             //CODE FROM https://forgetcode.com/CSharp/1027-Linear-search-programming
