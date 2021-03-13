@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SortAndSearch
 {
-    class BinarySearch
+    public class BinarySearch
     {
         //BINARY SEARCH
         //CODE FROM https://www.tutorialspoint.com/Binary-search-in-Chash
