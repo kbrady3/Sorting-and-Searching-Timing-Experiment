@@ -10,33 +10,11 @@ namespace SortAndSearch
         static void Main(string[] args)
         {
             //BUBBLE SORT
-            int[] b = new int[10000];
-            Random rand = new Random();
-            using StreamWriter file = new StreamWriter("UnsortedAndSortedArray.txt");
-
-            file.WriteLine("Begin unsorted array");
-            for (int i = 0; i < 10000; i++)
-            {
-                b[i] = rand.Next(1, 10000);
-                file.WriteLine(b[i]);
-            }
-            file.WriteLine("End unsorted array");
-
-            file.WriteLine("Begin sorted array");
-            DateTime start = DateTime.Now;
-            Array.Sort(b);
-            DateTime end = DateTime.Now;
-            TimeSpan difference = end - start;
-
-            foreach (int y in b)
-            {
-                file.WriteLine(y);
-            }
-            file.WriteLine("End sorted array");
-            Console.WriteLine("Array took " + difference + " to sort.");
+            BubbleSort bubble = new BubbleSort();
+            Console.WriteLine("Array took " + bubble.TimeArraySort() + " to sort.");
             Console.WriteLine("Arrays created. Check the bin/Debug/netcoreapp3.1 folder for the created text file.");
 
-            //BigInteger[] c = new BigInteger[999999999999];
+            //BUBBLE SORT 2
             List<BigInteger> c = new List<BigInteger>();
 
             for (int i = 0; i < 99999999; i++)
@@ -80,35 +58,6 @@ namespace SortAndSearch
                 }
             }
             Console.WriteLine("Search unsuccessful");
-        }
-
-        //BINARY SEARCH
-        //CODE FROM https://www.tutorialspoint.com/Binary-search-in-Chash
-        //Binary searches compare the search element to the element in the middle of the sorted array. If the search is less than the middle element, the program only has to search the first half of the array. Otherwise, it searches the second half of the array.
-        public static object BinarySearchDisplay(int[] arr, int key)
-        {
-            int minNum = 0;
-            int maxNum = arr.Length - 1;
-            int max;
-            int min;
-
-            while (minNum <= maxNum)
-            {
-                int mid = (minNum + maxNum) / 2;
-                if (key == arr[mid])
-                {
-                    return ++mid;
-                }
-                else if (key < arr[mid])
-                {
-                    max = mid - 1;
-                }
-                else
-                {
-                    min = mid + 1;
-                }
-            }
-            return "None";
         }
     }
 }
