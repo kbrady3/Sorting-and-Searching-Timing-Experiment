@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace SortAndSearch
 {
@@ -6,6 +7,33 @@ namespace SortAndSearch
     {
         static void Main(string[] args)
         {
+            //BUBBLE SORT
+            int[] b = new int[10000];
+            Random rand = new Random();
+            using StreamWriter file = new StreamWriter("UnsortedAndSortedArray.txt");
+
+            file.WriteLine("Begin unsorted array");
+            for (int i = 0; i < 10000; i++)
+            {
+                b[i] = rand.Next(1, 10000);
+                file.WriteLine(b[i]);
+            }
+            file.WriteLine("End unsorted array");
+
+            file.WriteLine("Begin sorted array");
+            DateTime start = DateTime.Now;
+            Array.Sort(b);
+            DateTime end = DateTime.Now;
+            TimeSpan difference = end - start;
+
+            foreach (int y in b)
+            {
+                file.WriteLine(y);
+            }
+            file.WriteLine("End sorted array");
+            Console.WriteLine("Array took " + difference + " to sort.");
+            Console.WriteLine("Arrays created. Check the bin/Debug/netcoreapp3.1 folder for the created text file.");
+
             //LINEAR SEARCH
             //CODE FROM https://forgetcode.com/CSharp/1027-Linear-search-programming
             //Linear searches search from left to right, which is less efficient than other types of searches. However, linear is perhaps the easiest search method to understand.
